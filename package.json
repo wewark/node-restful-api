@@ -1,0 +1,30 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "A RESTful api for HackerBay backend interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wewark/node-restful-api.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Khaled Hamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wewark/node-restful-api/issues"
+  },
+  "homepage": "https://github.com/wewark/node-restful-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
