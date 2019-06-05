@@ -4,11 +4,13 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 
 const userRoutes = require("./api/routes/user")
+const imgRoutes = require("./api/routes/img")
 
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({extended: false}))
 
 app.use("/user", userRoutes)
+app.use("/img", imgRoutes)
 
 app.use((req, res, next) => {
     const err = new Error('not found')
