@@ -15,6 +15,7 @@
     "rules": {
         "semi": ["warn", "never"],
         "indent": ["error", 4],
-        "no-console": "warn"
+        "no-console": "warn",
+        "no-unused-vars": "warn"
     }
 }
