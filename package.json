@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "start": "node server.js",
-    "coverage": "nyc npm test"
+    "coverage": "nyc npm test",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
