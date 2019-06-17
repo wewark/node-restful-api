@@ -8,7 +8,7 @@ const imgRoutes = require("./api/routes/img")
 const jsonRoutes = require("./api/routes/json")
 
 // Enable logging in developement mode only
-if (process.env.NODE_ENV == 'dev') {
+if (process.env.NODE_ENV == 'developement') {
     app.use(morgan('dev'))
 }
 app.use(bodyParser.urlencoded({extended: false}))
